@@ -59,7 +59,7 @@
         <%= @blog.body %>
         <!-- body部分 ここまで -->
       </p>
-      <a href="#">編集</a>
+      <%= link_to '編集', edit_blog_path(@blog) %>
       <a href="#">削除</a>
       <div class="author-case">
         <div class="author-image"></div>
@@ -67,7 +67,7 @@
           <p class="author-name">By JOHN SMITH / Photographer</p>
           <p class="author-text">
             His black and white landscapes, often captured at times<br>
-            of the day and night when the light is fleeting, or in poor<br>
+            of the heday and night when the light is fleeting, or in poor<br>
             weather conditions, such as rain, fog, or snow, are<br>
             reminiscent of the calm in a storm all with an ethereal<br>
             quality.
